@@ -11,6 +11,7 @@ By Brandon Li
 ## features
 - http request to the <a href= https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress target="_blank">geo coder</a>
 
+- http request to search the csv file
 ## implementation
 1. clone the repository 
 2. unzip and switch diretories to the file in the command prompt
