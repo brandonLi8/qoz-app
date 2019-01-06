@@ -1,0 +1,143 @@
+/*    qoz.css
+      QOZ app
+      Created by Brandon Li on 1/4/19.
+      Copyright © 2019 Brandon Li. All rights reserved. 
+*/
+
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+html {
+    background: #cfcfcf;
+}
+body {
+    background: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    color: #333;
+}
+
+#wrapper {
+    box-sizing: border-box;
+    min-height: 100%;
+    padding: 0 0 71px;
+    position: relative;
+    height: 100%;
+}
+
+#input-container {
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    
+}
+
+#instructions{
+    margin-top: 2%;
+    text-align: center;
+}
+
+#footer-container {
+    width: 80%;
+    height: 71px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 23px;
+    transition: color 0.25s, background 0.25s;
+}
+
+.left {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.right {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;  
+}
+
+li {   
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 0;
+    height: 34px;
+    margin-left: 20px;
+    transition: background 0.25s;
+}
+
+a {
+    color: blue;
+
+}
+
+#footer {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    color: #707070;
+    bottom: 0;
+    left: 0;
+    box-shadow: inset 0 15px 20px -10px rgba(0, 0, 0, 0.3);
+    background-color: #adadad;
+}
+
+label {
+    font-size: 20px;
+}
+
+#address {
+    width : 100%;
+    height: 35px;
+    border: 1px solid rgb(100,100,100);
+    border-radius: 4px;
+    padding: 0px 10px;
+    margin: 6px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 17px;
+} 
+#loader {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+input[type=submit] {
+    background-color: #2299FF;
+    color: white;
+    padding: 14px 40px;
+    margin: 8px auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #1188DD;
+}
+h1 {
+    width: 100%;
+    text-align: center;
+    font-weight: normal;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+
+
+
+
+

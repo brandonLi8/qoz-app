@@ -1,17 +1,57 @@
-<!doctype html>
+<!doctype html> 
+<!-- Top-level HTML file for QOZ web app -->
+<!--  input.html
+      QOZ app
+      Created by Brandon Li on 1/4/19.
+      Copyright © 2019 Brandon Li. All rights reserved. 
+-->
 
-<link rel="stylesheet" href="/css/qoz.css">
+<link rel="stylesheet" href="/css/qoz.css"> <!-- main styling sheet -->
 
+<html>
+    <head>
+      <meta charset="utf-8"/>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+      <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1"/>
+      <title>QOZ app</title>
+    </head>
 <body>
+
+    <div id="wrapper">
+        <div id = "main-container">
+            <div id="instructions">
+            Enter an address in the format of street name, city, zip code. <br> For example, 2084 s hamilton rd, ohio, 43232 
+            </div>
+            <div id = "input-container">
+                <label for="address">Address</label>
+                <input type="text"id="address"placeholder="Enter an address..">
+
+                <input type="submit" value="Submit" onclick="parseData()">
+            </div> 
+            <!-- loader is set to invisible in the script and set to visible when needed -->
+            <img id = "loader" src="assets/notifications-loading.gif">
+        </div>
+        <script src="js/parseData.js"></script>
+
+        <footer id = "footer"> <!-- footer at the bottom with credits -->
+            <div id="footer-container">
+                <ul class = "left">
+                    <li>2019© By Brandon Li </li>
+                    <li></li>
+                    <li> <a href="https://github.com/brandonLi8/qoz">Source Code</a> </li>     
+                </ul>
+
+                <ul class = "right">
+                    <li>brandon.li820@icloud.com</li>
+                    <li>303-717-1568</li>           
+                </ul>
+            </div>
+        </footer>
+
     
-       
-
-
-    <input type="text"id="address">
-    <input type="submit" value="Submit" onclick="parseData()">
-    <script src="js/paarse.js">
-        
-    </script>
+    </div>
 
 
 </body>
+</html>
+
