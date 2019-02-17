@@ -6,7 +6,7 @@
 
 By [Brandon Li](https://github.com/brandonLi8)
 
-## implementation
+## Try it!
 1. go to the [website](https://brandonli8.github.io/qoz-app/input) to get started
 
 
